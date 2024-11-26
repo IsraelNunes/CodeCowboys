@@ -42,9 +42,8 @@ nav a:hover {
     width: 100%;
     max-width: 1200px; 
 }
-#tecnologias, #equipe, #contato, #membros, #historia, #projetos {
-    height: 600px;
-}
+
+
 h2 {
     font-size: 36px;
     color: #333;

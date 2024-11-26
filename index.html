@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+    <title>CodeCowboys</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -30,69 +30,156 @@
             <a href="#contato">Contato</a>
         </nav>
     </header>
-    <div id="tecnologias" class="section">
-        <h2>Tecnologias em Destaque</h2>
-        <p>Conheça as principais tecnologias que utilizamos.</p>
+
+
+    <div id="tecnologias" class="section py-5 bg-white">
+        <h2>Tecnologias</h2>
+        <p>Ferramentas utilizadas pela equipe</p>
         <div class="container">
-            <div class="col-md-4 mb-4">
-                <div class="tech-card">
-                    <i class="bi bi-filetype-java tech-icon"></i>
-                    <a href="https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" target="_blank">
-                        <h4>Java</h4>
-                    </a>
-                    <p>Java é uma linguagem de programação de alto nível, orientada a objetos e independente de plataforma.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Card 1: Unity -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-unity fa-3x mb-3"></i>
+                            <h5 class="card-title">Unity</h5>
+                            <p class="card-text">
+                                Uma das plataformas mais populares para o desenvolvimento de jogos 2D e 3D, com grande suporte para VR e AR.
+                            </p>
+                            <a href="https://unity.com" target="_blank" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2: Unreal Engine -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <img src="https://logos-world.net/wp-content/uploads/2021/06/Unreal-Engine-Emblem.png" alt="Unreal Engine" style="width: 80px; height: 50px;" class="mb-3">
+                            <h5 class="card-title">Unreal Engine</h5>
+                            <p class="card-text">
+                                Uma poderosa engine para jogos AAA, conhecida por seus gráficos de alta qualidade e ferramentas de desenvolvimento robustas.
+                            </p>
+                            <a href="https://www.unrealengine.com" target="_blank" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3: C# -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-cuttlefish fa-3x mb-3"></i>
+                            <h5 class="card-title">C#</h5>
+                            <p class="card-text">
+                                A principal linguagem de programação usada no Unity para scripts e desenvolvimento de jogos interativos.
+                            </p>
+                            <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="tech-card">
-                    <i class="bi bi-filetype-py tech-icon"></i>
-                    <a href="https://www.python.org" target="_blank">
-                        <h4>Python</h4>
-                    </a>
-                    <p>Python é uma linguagem de programação de alto nível, interpretada, e de propósito geral.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <!-- Card 4: C++ -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-cuttlefish fa-3x mb-3"></i>
+                            <h5 class="card-title">C++</h5>
+                            <p class="card-text">
+                                A linguagem principal usada na Unreal Engine para programação de jogos de alto desempenho e gráficos avançados.
+                            </p>
+                            <a href="https://en.cppreference.com/w/" target="_blank" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="tech-card">
-                    <i class="bi bi-filetype-php tech-icon"></i>
-                    <a href="https://pt.wikipedia.org/wiki/PHP" target="_blank">
-                        <h4>PHP</h4>
-                    </a>
-                    <p>PHP é uma linguagem de programação de código aberto amplamente utilizada para o desenvolvimento de aplicações web.</p>
+                <!-- Card 5: Godot -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-cogs fa-3x mb-3"></i>
+                            <h5 class="card-title">Godot</h5>
+                            <p class="card-text">
+                                Uma engine de jogos open-source que suporta tanto jogos 2D quanto 3D, com um design leve e fácil de usar.
+                            </p>
+                            <a href="https://godotengine.org" target="_blank" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6: Blender -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fab fa-blender fa-3x mb-3"></i>
+                            <h5 class="card-title">Blender</h5>
+                            <p class="card-text">
+                                Software open-source usado para criar modelos 3D, animações e texturas para jogos.
+                            </p>
+                            <a href="https://www.blender.org" target="_blank" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>    
-    
-    
-    <div id="equipe" class="section">
-        <h2>Equipe</h2>
-        <p>Conteúdo geral sobre a equipe.</p>
     </div>
 
-    <div id="membros" class="section">
+    <div id="equipe" class="section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 text-dark">A História dos CodeCowboys</h2>
+            <p class="text-center mb-4">
+                Os CodeCowboys, liderados por <strong>Israel Nunes</strong> e <strong>Gustavo Xavier</strong>, são uma equipe de desenvolvedores apaixonados que compartilham um amor por jogos e tecnologia. 
+                Inspirados por mundos imersivos como <em>Red Dead Redemption 2</em> e <em>GTA V</em>, eles se uniram para criar experiências que combinam narrativa envolvente, jogabilidade dinâmica e gráficos impressionantes.
+            </p>
+            <p class="text-center mb-4">
+                Utilizando ferramentas como Unity, Unreal Engine, Blender e diversas linguagens de programação, os CodeCowboys se dedicam a criar produtos inovadores que desafiam os limites da criatividade digital e conquistam jogadores ao redor do mundo.
+            </p>
+            <h3 class="text-center mt-5 mb-4 text-dark">Principais Produtos</h3>
+            <p class="text-center mb-3">
+                <strong>CyberPunk 3050:</strong> Um RPG futurista onde o jogador explora uma metrópole dominada por tecnologia avançada e megacorporações. 
+                Este jogo oferece liberdade de escolha, narrativa envolvente e gráficos de ponta, proporcionando uma experiência única no gênero cyberpunk.
+            </p>
+            <p class="text-center">
+                <strong>Kingdoms Unite:</strong> Um jogo de estratégia em tempo real que desafia o jogador a unir diferentes reinos para enfrentar uma ameaça global. 
+                Com foco em cooperação e táticas complexas, este título combina construção de impérios e batalhas épicas.
+            </p>
+        </div>
+    </div>    
+    
+
+    <div id="membros" class="section py-5 bg-light">
         <h2>Membros</h2>
         <p>Aqui estão os membros da nossa equipe.</p>
-        <table style="width: 100%; text-align: center; border-collapse: collapse;">
-            <tr>
-                <td>
-                    <p><em>- Gustavo Xavier Tavares -</em></p>
-                    <img src="Gustavo.jpeg" alt="Gustavo Xavier" width="250">
-                </td>
-                <td>
-                    <p><em>- Israel Silva Nunes -</em></p>
-                    <img src="Israel.jpg" alt="Israel Nunes" width="250">
-                </td>
-            </tr>
-        </table>
-    </div>    
-
-
-    <div id="historia" class="section">
-        <h2>História</h2>
-        <p>Saiba mais sobre a história da gangue.</p>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- Card: Gustavo Xavier -->
+                <div class="col">
+                    <div class="card bg-white border-0 h-100 text-center">
+                        <div class="card-body">
+                            <img src="Gustavo.jpeg" alt="Gustavo Xavier" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+                            <h5 class="card-title">Gustavo Xavier Tavares</h5>
+                            <p class="card-text">
+                                Gustavo é um entusiasta de gráficos realistas e efeitos visuais, dominando ferramentas como Unreal Engine e Blender. 
+                                Ele se inspira em títulos como Red Dead Redemption 2 para criar mundos imersivos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card: Israel Silva Nunes -->
+                <div class="col">
+                    <div class="card bg-white border-0 h-100 text-center">
+                        <div class="card-body">
+                            <img src="Israel.jpg" alt="Israel Silva Nunes" class="rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+                            <h5 class="card-title">Israel Silva Nunes</h5>
+                            <p class="card-text">
+                                Israel é apaixonado por design de jogos e programação, com experiência em Unity e C#. 
+                                Ele transforma ideias em experiências que encantam jogadores ao redor do mundo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
+    
+    
 
     <div id="projetos" class="section py-5 bg-white">
         <div class="container">
