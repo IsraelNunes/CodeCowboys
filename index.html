@@ -69,24 +69,164 @@
         <h2>Equipe</h2>
         <p>Conteúdo geral sobre a equipe.</p>
     </div>
+
     <div id="membros" class="section">
         <h2>Membros</h2>
         <p>Aqui estão os membros da nossa equipe.</p>
-        <p><em>-Gustavo Xavier Tavares-</em></p>
-        <img src="Gustavo.jpeg" alt="" width="250">
-    </div>
+        <table style="width: 100%; text-align: center; border-collapse: collapse;">
+            <tr>
+                <td>
+                    <p><em>- Gustavo Xavier Tavares -</em></p>
+                    <img src="Gustavo.jpeg" alt="Gustavo Xavier" width="250">
+                </td>
+                <td>
+                    <p><em>- Israel Silva Nunes -</em></p>
+                    <img src="Israel.jpg" alt="Israel Nunes" width="250">
+                </td>
+            </tr>
+        </table>
+    </div>    
+
+
     <div id="historia" class="section">
         <h2>História</h2>
         <p>Saiba mais sobre a história da gangue.</p>
     </div>
-    <div id="projetos" class="section">
-        <h2>Projetos</h2>
-        <p>Explore nossos projetos em andamento.</p>
+
+
+    <div id="projetos" class="section py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5 text-dark">Projetos</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-gamepad fa-3x mb-3"></i>
+                            <h5 class="card-title">Projeto Hyrule</h5>
+                            <p class="card-text">
+                                Um jogo de aventura inspirado em mitologias, explorando templos antigos e desafios épicos.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-robot fa-3x mb-3"></i>
+                            <h5 class="card-title">CyberPunk 3050</h5>
+                            <p class="card-text">
+                                Um RPG futurista onde o jogador explora uma cidade dominada por tecnologia e megacorporações.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-cogs fa-3x mb-3"></i>
+                            <h5 class="card-title">Wakanda Tech</h5>
+                            <p class="card-text">
+                                Um simulador de construção que permite criar e gerenciar uma cidade avançada tecnologicamente.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-vr-cardboard fa-3x mb-3"></i>
+                            <h5 class="card-title">Stark Industries VR</h5>
+                            <p class="card-text">
+                                Um simulador de realidade virtual onde o jogador cria armaduras e experimenta tecnologias avançadas.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chess fa-3x mb-3"></i>
+                            <h5 class="card-title">Kingdoms Unite</h5>
+                            <p class="card-text">
+                                Um jogo de estratégia em tempo real, unindo diferentes reinos para enfrentar uma ameaça global.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col">
+                    <div class="card bg-light text-dark border-0 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-car fa-3x mb-3"></i>
+                            <h5 class="card-title">Neo Tokyo Drift</h5>
+                            <p class="card-text">
+                                Um jogo de corrida ambientado em uma metrópole neon com carros futuristas e pistas desafiadoras.
+                            </p>
+                            <a href="#" class="btn btn-outline-dark">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
+    
+    
+
     <div id="contato" class="section">
-        <h2>Contato</h2>
-        <p>Informações de contato da gangue.</p>
+        <div class="container mt-5 d-flex justify-content-center">
+            <div class="w-50">
+                <h2 class="text-center mb-4">Entre em Contato</h2>
+                <form id="contactForm" class="needs-validation" novalidate>
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Seu nome" required>
+                        <div class="invalid-feedback">Por favor, insira seu nome.</div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                        <div class="invalid-feedback">Por favor, insira um email válido.</div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Mensagem</label>
+                        <textarea class="form-control form-control-lg" id="message" name="message" rows="6" placeholder="Sua mensagem" required></textarea>
+                        <div class="invalid-feedback">Por favor, insira uma mensagem.</div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary btn-lg w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
     </div>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault(); 
+            const form = event.target;
+    
+            if (form.checkValidity()) {
+                alert('Formulário enviado com sucesso!');
+                form.reset(); 
+            } else {
+                alert('Por favor, preencha o formulário corretamente.');
+            }
+    
+            form.classList.add('was-validated');
+        });
+    </script>
+    
+
+
     <footer>
         <p>&copy; 2024 Van der Linde gang. Todos os direitos reservados.</p>
         <p>

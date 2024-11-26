@@ -80,6 +80,13 @@ h2 {
         flex: 0 0 100%; 
     }
 }
+
+
+
+#contato {
+    flex: 1;
+}
+
 footer {
     background-color: #333;
     color: white;
